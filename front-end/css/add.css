@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Oleo+Script:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.first{
+    
+    width: 100%;
+    height: 60vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+ 
+    
+}
+
+table{
+    width: 100%;
+    height: 50vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+    /* background: linear-gradient(rgb(236, 57, 57),rgb(232, 192, 198)); */
+    background-color: #fff;
+    border-radius: 12px;
+    /* box-shadow: 0 8px 16px rgba(0, 0, 0, 1); */
+    max-width: 400px;
+    border-bottom:5px solid #20126c ;
+    font-style:oblique;
+
+}
+
+.input input,select{
+    height: 32px;
+    width: 400px;
+    padding-left: 10px;
+    
+
+}
+input[type="text"]:focus {
+    outline: none;
+    border-color: #162c8e;
+  }
+.input{
+    margin-left: 50px;
+    /* padding: 10px 80px; */
+    height: 47px;
+}
+
+.button{
+    margin-top: 20px;
+    padding: 10px 40px;
+    border: none;
+    background-color:black;
+    border-radius: 7px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.button:hover{
+    background-color: rgb(40, 39, 39);
+}
+
+#emp-img{
+    width: 150px;
+    height: 150px;
+}
+
+#emp-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#genre,#screen {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+#bms-poster{
+    width: 100px;
+    height: 130px;
+}
+#bms-banner{
+    width: 200px;
+    height: 100px;
+}

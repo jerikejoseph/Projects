@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/add.css">
+</head>
+<body>
+    <div class="add">
+        <div class="first">
+            <form action="" id="forms" >
+                <table >
+                    <tr>
+                        <td> Title:</td>
+                        <td class="input" ><input type="text"  id="title" required></td>
+                    </tr>
+                    <tr>
+                        <td> Rating:</td>
+                        <td class="input" ><input type="number"  id="rating" required></td>
+                    </tr>
+                    <tr>
+                        <td> Screen:</td>
+                        <td class="input" ><select id="screen">
+                            <option value="">Select Screen Type</option>
+                            <option value="2D">2D</option>
+                            <option value="3D">3D</option>
+                            <option value="IMAX">IMAX</option>
+                            <option value="4DX">4DX</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td> Duration:</td>
+                        <td class="input" ><input type="text" name="name" id="duration" required></td>
+                    </tr>
+                    <tr>
+                    <td> Genre:</td>
+                    <td><select id="genre">
+                        <option value="">Select Genre</option>
+                        <option value="Action">Action</option>
+                        <option value="Comedy">Comedy</option>
+                        <option value="Drama">Drama</option>
+                        <option value="Romance">Romance</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td>ReleaseDate:</td>
+                        <td class="input" ><input type="date" id="releaseDate" required></td>
+                    </tr>
+                    <tr>
+                        <td>Language:</td>
+                        <td class="input" ><input type="text"  id="language" required></td>
+                    </tr>
+                    <tr>
+                        <td>Certification:</td>
+                        <td class="input" ><select id="certification" required>
+                            <option value="">Select Certification</option>
+                            <option value="U">U</option>
+                            <option value="UA">UA</option>
+                            <option value="A">A</option>
+                            <option value="S">S</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                    <tr><td></td><td><div><img src="" alt="" id="bms-poster"></div></td></tr>
+                    <tr>
+                        <td>POSTER:</td>
+                        <td class="input" ><input type="file"  id="poster"  onchange="getPoster()" ></td>
+                    </tr>
+
+                    <tr><td></td><td><div><img src="" alt="" id="bms-banner"></div></td></tr>
+                    <tr>
+                        <td>BANNER:</td>
+                        <td class="input" ><input type="file"  id="banner"  onchange="getBanner()"></td>
+                    </tr>
+
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="add" class="button" id=""></td>
+                    </tr>
+    
+                </table>
+    
+            </form>
+        </div>
+    </div>
+
+    
+
+
+
+
+
+    <script src="../js/add.js"></script>
+</body>
+</html>
